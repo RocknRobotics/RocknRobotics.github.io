@@ -1,0 +1,51 @@
+body{
+    margin:0px;
+    margin-top:0px;
+}
+
+.headerDiv{
+    height:50px;
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    position:fixed;
+    top:0;
+    background-color:lightgray;
+    margin:0px;
+    margin-top:0px;
+}
+
+.headerLeftDiv{
+    flex:1fr;
+    display:flex;
+    flex-direction:row;
+}
+
+.headerRightDiv{
+    flex:1fr;
+}
+
+.headerMidDiv{
+    flex:2fr;
+    min-width:fit-content;
+}
+
+.name{
+    display:inline;
+}
+
+.homeButton{
+    flex:1fr;
+}
+
+.aboutUsButton{
+    flex:1fr;
+}
+
+.roboLogo{
+    width:100%;
+    border-radius:15%;
+    height:40px;
+    width:40px;
+    object-fit:contain;
+}
