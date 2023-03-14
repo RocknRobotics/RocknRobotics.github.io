@@ -1,0 +1,14 @@
+.mainPage{
+    height:1000px;
+    background-color:green;
+    margin-top:50px;
+}
+
+.sponsorsDiv{
+    Display:flex;
+    
+}
+
+.sponsorDiv{
+    background-color:white;
+}
