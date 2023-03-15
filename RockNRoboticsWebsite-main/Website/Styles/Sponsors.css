@@ -1,0 +1,28 @@
+.mainPage{
+    height:1000px;
+    background-color:green;
+    margin-top:50px;
+}
+
+.sponsorsDiv{
+    Display:flex;
+    
+}
+
+.sponsorDiv{
+    background-color:white;
+    display:grid;
+    grid-template-rows:100px 10px 40px;
+}
+
+.sponsorName{
+    background-color:gray;
+    font-weight:500px;
+}
+
+.sponsorText{
+    background-color:gray;
+    font-weight:300px;
+    font-size:14px;
+    height:100%;
+}
