@@ -1,28 +1,76 @@
+
+
 .mainPage{
     height:1000px;
-    background-color:green;
     margin-top:50px;
+    padding:15px;
 }
 
+@media (min-width:1400px){
+    .sponsorsDiv{
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1200px) and (max-width:1399px){
+    .sponsorsDiv{
+        grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+    }
+}
+@media (min-width:1000px) and (max-width:1199px){
+    .sponsorsDiv{
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+}
+@media (max-width:700px){
+    .sponsorsDiv{
+        grid-template-columns:1fr 1fr;
+    }
+}
+@media (min-width:701px) and (max-width:999px){
+    .sponsorsDiv{
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
 .sponsorsDiv{
-    Display:flex;
-    
+    Display:grid;
+    column-gap:15px;
+    row-gap:15px;
 }
 
 .sponsorDiv{
-    background-color:white;
+    background-color:whitesmoke;
     display:grid;
-    grid-template-rows:100px 10px 40px;
+    grid-template-rows:3fr 1fr 2fr;
+    justify-content:center;
+    align-items:center;
+    border:2px solid black;
+    border-radius:20px;
+}
+
+.logoDiv{
+    width:100%;
+}
+
+.sponsorImage{
+    margin:0;
+    object-fit:cover;
+    width:100%;
+}
+
+.nameDiv{
 }
 
 .sponsorName{
-    background-color:gray;
     font-weight:500px;
+    margin:0;
+}
+
+.sponsorTextDiv{
 }
 
 .sponsorText{
-    background-color:gray;
     font-weight:300px;
     font-size:14px;
     height:100%;
+    margin:0;
 }

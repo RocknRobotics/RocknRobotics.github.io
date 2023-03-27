@@ -1,33 +1,54 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="Styles/Homepage.css" type="text/css">
         <link rel="stylesheet" href="Styles/header.css" type="text/css">
-        <link rel="stylesheet" href="Styles/Homepage.css">
+        <link rel="stylesheet" href="Styles/ColorScheme.css" type="text/css">
+        <link rel="stylesheet" href="Styles/Sidebar.css" type="text/css">
+        <script src="code/Header.js"></script>
         <title>Rock N' Robotics</title>
     </head>
     <body>
-        <div class="headerDiv">
-            <div class="headerLeftDiv">
-                <button class="homeButton"onclick="window.location.href='index.html'">Home</button>
-                <button class="aboutUsButton" onclick="window.location.href='AboutUs.html'">About Us</button>
-                <button class="roboCamButton" onclick="window.location.href='RoboCam.html'">Robo Cam</button>
-                <button class="sponsorsButton" onclick="window.location.href='Sponsors.html'">Sponsors</button>
-            </div>
-            <div class="headerMidDiv">
-                <h1 class="name">Rock N' Robotics</h1>
-            </div>
-            <div class="headerRightDiv">
-                <img class="roboLogo" src="images/robots/oldWebsite.png" alt="Logo">
-            </div>
+        <header-component></header-component>
+        <div class="sidebarDiv" id="sidebarDiv">
+            <button class="sidebarButton" id="sidebarButton"><img class="hamburger" src="images/icons/hamburger-menu.svg" alt="Sidebar"></button>
+            <button class="homeButton"onclick="window.location.href='index.html'">Home</button>
+            <button class="aboutUsButton" onclick="window.location.href='AboutUs.html'">About Us</button>
+            <button class="roboCamButton" onclick="window.location.href='RoboCam.html'">Robo Cam</button>
+            <button class="sponsorsButton" onclick="window.location.href='Sponsors.html'">Sponsors</button>
         </div>
+        <script src="code/Sidebar.js"></script>
         <div class="mainPage">
             <div>
                 <h1>Rock N' Robotics</h1>
                 <h2>Team 3692</h2>
                 <img src="images/robots/oldWebsite.png" href="index.html">
-                <h3>Robot Code on GitHub</h3>
-                <a href="https://github.com/TCRicks/RockNRobotics" target="_blank"><p>Code Repository</p></a>
-
+                <section class="githubDiv">
+                    <div class="codeDiv">
+                        <div class="codeTitle">
+                            <h3>Robot Code on GitHub</h3>
+                        </div>
+                        <div class="codeDescription">
+                            This code is the code that we are using currently for our robot.
+                        </div>
+                        <div class="codeLink">
+                            <a href="https://github.com/TCRicks/RockNRobotics" target="_blank"><p>Code Repository</p></a>
+                        </div>
+                        
+                    </div>
+                    <div class="codeDiv">
+                        <div class="codeTitle">
+                            <h3>Website Code on GitHub</h3>
+                        </div>
+                        <div class="codeDescription">
+                            This code is the code for the current iteration of the website.
+                        </div>
+                        <div class="codeLink">
+                            <a href="https://github.com/TCRicks/RockNRobotics" target="_blank"><p>Code Repository</p></a>
+                        </div>
+                    </div>
+                </section>
+                
             </div>
         </div>
     </body>
