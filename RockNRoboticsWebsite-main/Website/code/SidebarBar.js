@@ -5,6 +5,7 @@ class Sidebar extends HTMLElement{
 
     connectedCallback() {
         this.innerHTML = `
+        <script src="Sidebar.js"></script>
         <div class="sidebarDiv" id="sidebarDiv">
             <button class="sidebarButton" id="sidebarButton"><img class="hamburger" src="../images/icons/hamburger-menu.svg" alt="Sidebar"></button>
             <button class="homeButton"onclick="window.location.href='../index.html'">Home</button>
