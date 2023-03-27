@@ -1,4 +1,4 @@
-class SideBar extends HTMLElement{
+class Sidebar extends HTMLElement{
     constructor() {
         super();
     }
