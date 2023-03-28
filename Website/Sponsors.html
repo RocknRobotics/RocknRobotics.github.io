@@ -3,32 +3,74 @@
     <head>
         <link rel="stylesheet" href="Styles/header.css" type="text/css">
         <link rel="stylesheet" href="Styles/Sponsors.css" type="text/css">
+        <link rel="stylesheet" href="Styles/ColorScheme.css">
+        <link rel="stylesheet" href="Styles/Sidebar.css">
         <title>Rock N' Robotics</title>
+        <script src="code/Header.js"></script>
+        <script src="code/SidebarBar.js"></script>
     </head>
     <body>
-        <div class="headerDiv">
-            <div class="headerLeftDiv">
-                <button class="homeButton"onclick="window.location.href='index.html'">Home</button>
-                <button class="aboutUsButton" onclick="window.location.href='AboutUs.html'">About Us</button>
-                <button class="roboCamButton" onclick="window.location.href='RoboCam.html'">Robo Cam</button>
-                <button class="sponsorsButton" onclick="window.location.href='Sponsors.html'">Sponsors</button>
-            </div>
-            <div class="headerMidDiv">
-                <h1 class="name">Rock N' Robotics</h1>
-            </div>
-            <div class="headerRightDiv">
-                <img class="roboLogo" src="images/robots/oldWebsite.png" alt="Logo">
-            </div>
-        </div>
-        <div class="mainPage">
-            <div>
-                <a href="index.html"><img src="images/robots/oldWebsite.png" href="index.html"></a>
-            </div>
+        <header-component></header-component>
+        <sidebar-component></sidebar-component>
+        <script src="code/Sidebar.js"></script>
+        <main class="mainPage">
             <div class="sponsorsDiv">
                 <div class="sponsorDiv">
-                    <a href="https://www.janesville.k12.wi.us/" target="_blank"><img class="sponsorImage" src="images/Sponsors/District.png"></a>
+                    <div class="logoDiv">
+                        <a href="https://www.janesville.k12.wi.us/" target="_blank" class="sponsorLink"><img class="sponsorImage" src="images/Sponsors/District.png"></a>
+                    </div>
+                   <div class="nameDiv">
+                    <h3 class="sponsorName">Janesville School District</p>
+                    </div>
+                    <div class="sponsorTextDiv">
+                        <p class="sponsorText">School</p>
+                    </div>
+                </div>
+                <div class="sponsorDiv">
+                    <div class="logoDiv">
+                        <a href="https://www.janesville.k12.wi.us/" target="_blank" class="sponsorLink"><img class="sponsorImage" src="images/Sponsors/District.png"></a>
+                    </div>
+                   <div class="nameDiv">
+                    <h3 class="sponsorName">Janesville School District</p>
+                    </div>
+                    <div class="sponsorTextDiv">
+                        <p class="sponsorText">School</p>
+                    </div>
+                </div>
+                <div class="sponsorDiv">
+                    <div class="logoDiv">
+                        <a href="https://www.janesville.k12.wi.us/" target="_blank" class="sponsorLink"><img class="sponsorImage" src="images/Sponsors/District.png"></a>
+                    </div>
+                   <div class="nameDiv">
+                    <h3 class="sponsorName">Janesville School District</p>
+                    </div>
+                    <div class="sponsorTextDiv">
+                        <p class="sponsorText">School</p>
+                    </div>
+                </div>
+                <div class="sponsorDiv">
+                    <div class="logoDiv">
+                        <a href="https://www.janesville.k12.wi.us/" target="_blank" class="sponsorLink"><img class="sponsorImage" src="images/Sponsors/District.png"></a>
+                    </div>
+                   <div class="nameDiv">
+                    <h3 class="sponsorName">Janesville School District</p>
+                    </div>
+                    <div class="sponsorTextDiv">
+                        <p class="sponsorText">School</p>
+                    </div>
+                </div>
+                <div class="sponsorDiv">
+                    <div class="logoDiv">
+                        <a href="https://www.janesville.k12.wi.us/" target="_blank" class="sponsorLink"><img class="sponsorImage" src="images/Sponsors/District.png"></a>
+                    </div>
+                   <div class="nameDiv">
+                    <h3 class="sponsorName">Janesville School District</p>
+                    </div>
+                    <div class="sponsorTextDiv">
+                        <p class="sponsorText">School</p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </main>
     </body>
 </html>

@@ -10,7 +10,7 @@ body{
     justify-content:space-between;
     position:fixed;
     top:0;
-    background-color:lightgray;
+    background-image:radial-gradient(circle, rgb(177, 177, 177), rgb(95, 95, 95));
     margin:0px;
     margin-top:0px;
 }
@@ -19,6 +19,8 @@ body{
     flex:1fr;
     display:flex;
     flex-direction:row;
+    z-index: 11;
+    position: relative;
 }
 
 .headerRightDiv{
@@ -34,26 +36,29 @@ body{
     display:inline;
 }
 
-.homeButton{
-    flex:1fr;
-}
-
-.aboutUsButton{
-    flex:1fr;
-}
-
-.roboCamButton{
-    flex:1fr;
-}
-
-.sponsorButton{
-    flex:1fr;
-}
-
 .roboLogo{
     width:100%;
     border-radius:15%;
     height:40px;
     width:40px;
     object-fit:contain;
+}
+
+.hamburger{
+    width:20px;
+}
+
+.sidebarButton{
+    border:none;
+    background-color:transparent;
+    transition:background-color 0.15s;
+    margin-left:15px;
+    padding-left:15px;
+    padding-right:15px;
+    z-index: 120;
+}
+
+.sidebarButton:hover{
+    background-color:rgba(75, 75, 75, 0.5);
+    
 }
