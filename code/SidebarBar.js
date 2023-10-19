@@ -11,6 +11,7 @@ class Sidebar extends HTMLElement{
             <button class="sidebarButtons" onclick="window.location.href='AboutUs.html'">About Us</button>
             <button class="sidebarButtons" onclick="window.location.href='RoboCam.html'">Robo Cam</button>
             <button class="sidebarButtons" onclick="window.location.href='Sponsors.html'">Sponsors</button>
+            <button class="sidebarButtons" onclick="window.location.href='Resources.html'">Resources</button>
         </div>
         `;
     }
