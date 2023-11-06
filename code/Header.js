@@ -5,16 +5,13 @@ class Header extends HTMLElement{
 
     connectedCallback() {
         this.innerHTML = `
-        <header class="headerDiv">
-            <div class="headerLeftDiv">
-                <button class="sidebarButton" id="sidebarButton"><img class="hamburger" src="images/icons/hamburger-menu.svg" alt="Sidebar"></button>
-            </div>
-            <div class="headerMidDiv">
-                <h1 class="name">Rock N' Robotics</h1>
-            </div>
-            <div class="headerRightDiv">
-                <img class="roboLogo" src="images/robots/robotNoBackground.png" alt="Logo">
-            </div>
+        <header>
+            <ul id="header">
+                <li class="left tabs"><a href="index.html" class="nav robot"><img src="images/robots/robothead.png" width="20px"> Rock N' Robotics</a></li>
+                <li class="right tabs"><a href="sponsors.html" class="nav">Sponsors</a></li>
+                <li class="right tabs"><a href="#contact" class="nav">Contact</a></li>
+                <li class="right tabs"><a href="about.html" class="nav">About</a></li>
+            </ul>
         </header>
         `;
     }

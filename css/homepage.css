@@ -1,0 +1,162 @@
+body {
+    background-color: rgb(0, 20, 0);
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.mainPage {
+    float: left;
+    margin-top: 70px;
+    position: relative;
+    height: auto;
+}
+
+/*@media screen and (max-width:400px){
+    .mainPage {
+        height: 1500px;
+    }
+}*/
+
+#head {
+    padding: 10px 10px 5px;
+    background: rgb(0, 110, 0);
+    margin-bottom: 8px;
+}
+
+.mainPage h1 {
+    padding: 10px 10px 5px;
+    background: rgb(0, 50, 0);
+    font-size: 5vw;
+}
+
+.mainPage .carousel-item {
+    background-color: rgb(0, 80, 0);
+}
+
+.mainPage .carousel-item center {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 5vw;
+}
+
+.mainPage .carousel-item img {
+    padding: 0px 0px 10px;
+    width: 150%;
+    height: 30%;
+}
+
+#mission_wrapper {
+    position: relative;
+    float: none;
+    width: 100%;
+    height: auto;
+    margin: 8px 0px;
+}
+
+#mission {
+    margin: 8px -8px 8px 2%;
+    padding-right: -10px;
+    background-color: rgb(0, 50, 0);
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#mission h2 {
+    margin: 8px 0px 0px 20px;
+    font-size: 5vw;
+    text-align: left;
+}
+
+#mission #statements {
+    float: left;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    padding-right: 10%;
+    padding-left: 0%;
+    width: 80%;
+    background-color: green;
+    list-style-type: none;
+}
+
+#mission li {
+    font-size: 2vw;
+}
+
+#robotphoto {
+    background-color: darkred;
+    padding: 10px;
+    margin: 8px 0px 8px 8px;
+    width: 40%;
+}
+
+#location_wrapper {
+    float: left;
+    position: relative;
+    z-index: -999;
+    margin: 10px 2%;
+    width: 96%;
+    height: 70vw;
+    background-color: rgb(0, 50, 0);
+}
+
+#location_wrapper iframe {
+    background-color: darkred;
+    margin: 8px;
+    padding: 10px;
+    width: 90%;
+    height: 70%;
+}
+
+#location h2 {
+    position: relative;
+    float: none;
+    font-size: 5vw;
+    text-align: center;
+}
+
+#location {
+    background-color: rgb(0, 80, 0);
+    margin: 2% 2%;
+    width: 96%;
+    height: 12vw;
+    font-size: 3vw;
+}
+
+.footer {
+    float: left;
+    background-color: rgb(11, 105, 51);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    width: 100%;
+    height: 10vw;
+}
+
+.footer ul {
+    list-style-type: none;
+}
+
+.footer p {
+    font-size: 2vw;
+    text-align: left;
+    float: left;
+}
+
+.footer .footer_links {
+    font-size: 2vw;
+    float: left;
+}
+
+.footer .media {
+    float: right;
+    margin-top: 2vh;
+    margin-right: 5vw;
+}
+
+.footer img {
+    width: 5vw;
+}

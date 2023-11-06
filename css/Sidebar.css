@@ -1,0 +1,27 @@
+.sidebarDiv{
+    background-color:black;
+    z-index:10;
+    display:flex;
+    flex-direction:column;
+    position:fixed;
+    left:-140px;
+    bottom:0;
+    top:50px;
+    width:140px;
+    padding-top:0px;
+    transition:left 0.5s;
+}
+
+.sidebarButtons{
+    flex:1fr;
+    height:45px;
+    font-size:15px;
+    color:white;
+    background-color:black;
+    border:none;
+    transition:background-color 0.15s;
+}
+
+.sidebarButtons:hover{
+    background-color:rgb(43, 43, 43);
+}
