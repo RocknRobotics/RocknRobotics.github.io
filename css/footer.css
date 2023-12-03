@@ -5,7 +5,9 @@
     padding-top: 10px;
     padding-bottom: 20px;
     width: 100%;
-    height: 10vw;
+    height: 150px;
+    position: absolute;
+    bottom: 0;
 }
 
 .footer ul {
@@ -13,13 +15,13 @@
 }
 
 .footer p {
-    font-size: 2vw;
+    font-size: 16pt;
     text-align: left;
     float: left;
 }
 
 .footer .footer_links {
-    font-size: 2vw;
+    font-size: 16pt;
     float: left;
 }
 
@@ -30,5 +32,5 @@
 }
 
 .footer img {
-    width: 5vw;
+    width: 50px;
 }
