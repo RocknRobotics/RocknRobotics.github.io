@@ -23,7 +23,7 @@ class Footer extends HTMLElement{
                     <ul class="media">
                         <li><a href="#"><img src="images/icons/x.png" alt="x"></a></li>
                         <li><a href="#"><img src="images/icons/youtube.png" alt="youtube"></a></li>
-                        <li><a href="#"><img src="images/icons/facebook.png" alt="facebook"></a></li>
+                        <li><a href="https://www.tiktok.com/@rock.n.robotics.3"><img src="images/icons/tiktok.png" alt="tiktok"></a></li>
                     </ul>
                 </li>
             </ul> 
